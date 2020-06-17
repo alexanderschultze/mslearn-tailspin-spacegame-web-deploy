@@ -75,7 +75,7 @@ stages:
       vmImage: 'ubuntu-18.04'
     environment: dev
     variables:
-    - group: SpaceGameDEC
+    - group: SpaceGameDEV
     strategy:
       runOnce:
         deploy:
